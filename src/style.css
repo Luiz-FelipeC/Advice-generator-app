@@ -1,2 +1,35 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; color:  hsl(150, 100%, 66%); }
+.attribution a { color: hsl(0, 0%, 100%); }
+
+
+body {
+    background-color: var(--neutral-dark);
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+   background-color: var(--neutral-medium);
+   width: 29.5%;
+   border-radius: 15px;
+   height: 333px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.id-advice {
+    font-size: 10px;
+    color: var(--primary-light);
+}
+
+.advice {
+    color: var(--primary-soft);
+}
