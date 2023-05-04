@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./src/reset.css">
   <link rel="stylesheet" href="./src/variables.css">
   <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/responsive.css">
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,26 +17,24 @@
 </head>
 <body>
 
-  <main>
-    <div class="card">
-      <h2 class="id-advice">ADVICE #117</h2>
-      <p class="advice">"lorem"</p>
-      <picture>
-        
-      </picture>
+  <main class="card">
+    <div class="advice">
+        <h2 class="advice-id"> lorem </h2>
+        <p class="advice-description"> lorem </p>
+        <picture>
+            <source srcset="./images/pattern-divider-mobile.svg" media="(max-width: 768px)">
+            <img src="./images/pattern-divider-desktop.svg" alt="Pattern divider">
+        </picture>
+        <button class="advice-update">
+            <img src="./images/icon-dice.svg" alt="Dice icon">
+        </button>
     </div>
+</main>
   
-  
-  
-  
-  
-  
-  </main>
-  <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/Luiz-FelipeC">Luiz Felipe Campos</a>.
     </div>
-  </footer>
+  
 </body>
 </html>
